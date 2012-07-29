@@ -26,3 +26,6 @@ vendor/samsung/maguro/proprietary/libsec-ril.so:system/vendor/lib/libsec-ril.so 
 vendor/samsung/maguro/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
 vendor/samsung/maguro/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
 vendor/samsung/maguro/proprietary/libusc.so:system/vendor/lib/libusc.so \
+vendor/samsung/maguro/proprietary/libsyncml_core.so:system/lib/libsyncml_core.so \
+vendor/samsung/maguro/proprietary/libsyncml_port.so:system/lib/libsyncml_port.so \
+vendor/samsung/maguro/proprietary/lib_gsd4t.so:system/lib/lib_gsd4t.so \

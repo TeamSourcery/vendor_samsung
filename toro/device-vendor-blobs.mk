@@ -54,10 +54,13 @@ PRODUCT_COPY_FILES += \
 # All the apks necessary for toro
 PRODUCT_PACKAGES += \
     BIP \
+    CellBroadcastReceiverVZW \
     IMSFramework \
     RTN \
     SDM \
+    SPG \
     SyncMLSvc \
     VZWAPNLib \
     VZWAPNService
+
 

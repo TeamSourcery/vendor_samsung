@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
     vendor/samsung/toro/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
     vendor/samsung/toro/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
+    vendor/samsung/toro/proprietary/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/toro/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/toro/proprietary/libsyncml_core.so:system/lib/libsyncml_core.so \
     vendor/samsung/toro/proprietary/libsyncml_port.so:system/lib/libsyncml_port.so \
@@ -32,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/sirfgps.conf:system/vendor/etc/sirfgps.conf \
     vendor/samsung/toro/proprietary/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
     vendor/samsung/toro/proprietary/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
-    vendor/samsung/toro/proprietary/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/toro/proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/samsung/toro/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/toro/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
@@ -63,5 +63,4 @@ PRODUCT_PACKAGES += \
     SyncMLSvc \
     VZWAPNLib \
     VZWAPNService
-
 

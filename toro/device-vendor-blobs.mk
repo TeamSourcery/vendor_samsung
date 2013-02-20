@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     vendor/samsung/toro/proprietary/gps.omap4.so:system/vendor/lib/hw/gps.omap4.so \
     vendor/samsung/toro/proprietary/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
+    vendor/samsung/toro/proprietary/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so \
     vendor/samsung/toro/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/toro/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/samsung/toro/proprietary/libims.so:system/vendor/lib/libims.so \
@@ -50,7 +51,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/libsec-ril_lte.so:system/vendor/lib/libsec-ril_lte.so \
     vendor/samsung/toro/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/toro/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/toro/proprietary/libusc.so:system/vendor/lib/libusc.so
+    vendor/samsung/toro/proprietary/libusc.so:system/vendor/lib/libusc.so \
+    vendor/samsung/maguro/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/maguro/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/maguro/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/maguro/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # All the apks necessary for toro
 PRODUCT_PACKAGES += \

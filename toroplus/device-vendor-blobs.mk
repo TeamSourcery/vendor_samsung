@@ -56,20 +56,7 @@ PRODUCT_PACKAGES += \
     libsyncml_port \
     lib_gsd4t \
     libsec-ril_lte \
-    bcm4330 \
-    pvrsrvctl \
-    libEGL_POWERVR_SGX540_120 \
-    libGLESv1_CM_POWERVR_SGX540_120 \
-    libGLESv2_POWERVR_SGX540_120 \
-    gralloc.omap4 \
-    libglslcompiler \
-    libIMGegl \
-    libpvr2d \
-    libpvrANDROID_WSEGL \
-    libPVRScopeServices \
-    libsrv_init \
-    libsrv_um \
-    libusc \
-    libinvensense_mpl \
-    libpn544_fw
+    libinvensense_mpl
+    
+    
 
